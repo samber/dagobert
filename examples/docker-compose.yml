@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  clip-as-service:
+    image: jinaai/clip-server
+    ports:
+      - 51000:51000
